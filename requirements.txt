@@ -1,0 +1,6 @@
+# Week 1: only what we need for the extract step.
+# Other packages (scikit-learn, streamlit, pytest...) are added when we reach them.
+nba_api
+pandas
+requests
+python-dotenv

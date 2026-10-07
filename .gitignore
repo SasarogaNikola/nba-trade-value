@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+venv/
+
+# Secrets: the real .env must never go to GitHub
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Raw data and database (large, and can be downloaded again).
+# .gitkeep stays so the folder exists in the repository.
+data/raw/*
+!data/raw/.gitkeep
+data/*.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
